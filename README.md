@@ -1,2 +1,20 @@
-# skybook---smart-airline-reservation-system
-SkyBook is a modern, responsive Smart Airline Reservation System designed to simplify flight booking and airline management. It features flight search, ticket reservations, passenger management, booking confirmation, seat selection, flight schedules, and an intuitive dashboard, delivering a seamless and user-friendly travel booking experience.
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/0d762538-1b76-4e5d-8aa6-c2d70311d4ab
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

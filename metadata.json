@@ -1,0 +1,6 @@
+{
+  "name": "SkyBook — Smart Airline Reservation System",
+  "description": "BSIT Web Technology university exhibition prototype for airline reservation management, featuring flight search, interactive aircraft seat selection, e-ticket generation, booking lifecycle, and comprehensive administrative operations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

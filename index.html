@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SKYBOOK — Smart Airline Reservation System</title>
+    <meta name="description" content="BSIT Web Technology university exhibition prototype for airline reservation management, featuring flight search, interactive aircraft seat selection, e-ticket generation, booking lifecycle, and administration." />
+    <meta property="og:title" content="SKYBOOK — Smart Airline Reservation System" />
+    <meta property="og:description" content="BSIT Web Technology university exhibition prototype for airline reservation management." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts for High-Fidelity Aviation UI: Plus Jakarta Sans & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Primary Stylesheet -->
+    <link rel="stylesheet" href="/src/index.css" />
+  </head>
+  <body>
+    <!-- App Shell Container -->
+    <div id="app"></div>
+
+    <!-- Modal Host -->
+    <div id="modal-container" class="modal-overlay hidden" aria-hidden="true"></div>
+
+    <!-- Toast Notifications Host -->
+    <div id="toast-container" class="toast-shelf" aria-live="polite"></div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
